@@ -1,0 +1,20 @@
+# Local runtime state, private saves and generated validation artifacts
+/ipc/
+/inspection/
+/tests/ipc/
+/install-report.json
+/validation-report.json
+/controller-error.txt
+/window-preview.png
+__pycache__/
+*.py[cod]
+.impeccable/
+
+# Never distribute game executables, libraries or extracted bytecode
+*.exe
+!Frontiers修改器.exe
+*.dll
+*.luac
+*.installing
+*.lnk
+*.zip
